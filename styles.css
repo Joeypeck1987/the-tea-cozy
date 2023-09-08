@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    opacity: 0.9;
+    text-align: center;
+    color: gray;
+}
+
+h4, p {
+    margin: 10px;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    padding: 10px;
+    opacity: 0.8;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 10px;
+    display: flex;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: underline;
+    color: gray;
+}
+
+.nav-item:hover a {
+    color: #ddd;
+    list-style: none;
+}
+
+.logo img {
+    margin: 10px;
+    width: 175px;
+    vertical-align: middle;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 75px;
+}
+
+/* menu section */
+
+.menu {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.menu h4 {
+    margin-bottom: 25px;
+}
+
+.menu-items {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-items img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 75px;
+}
+
+.location {
+    gap: 40px;
+}
+
+.contact {
+    height: 200px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 20px;
+    font-size: 14px;
+    text-align: left;
+}
